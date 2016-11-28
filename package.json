@@ -1,16 +1,15 @@
 {
-  "name": "contracts",
+  "name": "mutuals",
   "version": "1.0.0",
-  "description": "",
   "main": "truffle.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "truffle test"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Ciro S. Costa <ciro.costa@usp.br>",
+  "license": "MIT",
   "dependencies": {
     "babel-plugin-syntax-async-functions": "^6.13.0",
     "babel-plugin-transform-regenerator": "^6.16.1",
